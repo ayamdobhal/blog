@@ -24,7 +24,7 @@
         ];
 
         shellHook = ''
-          export DATABASE_URL=postgres://postgres:postgres@localhost:5432/blog
+          export DATABASE_URL=postgres://ayamdobhal:@localhost:5432/blog
           echo "Development environment ready!"
           exec zsh
         '';
