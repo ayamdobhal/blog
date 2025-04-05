@@ -10,7 +10,7 @@
   "repository": "https://github.com/ayamdobhal/blog",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "mkdir -p posts && next build",
     "start": "next start",
     "lint": "next lint"
   },
